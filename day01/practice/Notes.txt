@@ -1,0 +1,49 @@
+
+Scripts is a set of instructions.
+variables & constants.
+ ---------------------------------------------------------------
+what is variable ?
+ A **variable in Python** is a named container used to store data that can be changed during program execution.
+ ------------------------------------------------------------------------------------------------------------------
+what is constant?
+A **constant in Python** is a value that is meant to stay the same and not change while the program runs.
+ ------------------------------------------------------------------------------------------------------------------------
+what is assignment operator?
+An **assignment operator in Python** is used to give a value to a variable (like `=`).
+-----------------------------------------------------------------------------------------------------------------------
+what is arithmetic operators?
+In Python, **arithmetic operators** are symbols used to perform basic math operations like addition, subtraction, multiplication, and division.
+----------------------------------------------------------------------------------------------------------------------------------------------------
+what are Operators and Operands?
+Operands are the values you use (like numbers or variables)
+Operators (operations) are the symbols that perform actions on them
+For example - a + b
+
+a and b = operands
++ = operator (operation)
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
+what are data types?
+In Python, **data types** are the types of values a variable can store (like numbers, text, or true/false).
+Basic Data Types
+- int → whole numbers (e.g., 10, -5)
+- float → decimal numbers (e.g., 3.14)
+- str → text (e.g., "hello")
+- bool → True or False
+Collection Data Types
+- list → ordered, changeable collection (e.g., [1, 2, 3])
+- tuple → ordered, but not changeable (e.g., (1, 2, 3))
+- set → unordered, unique items (e.g., {1, 2, 3})
+- dict → key-value pairs (e.g., {"name": "Azim"})
+----------------------------------------------------------------------------------------------------------------------------------------------------
+what is type casting?
+
+In Python, type casting means converting one data type into another.
+x = "10"      # string
+y = int(x)    # converted to integer
+Type casting is used when you want to change the type of a value (like string → number).
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
+what is if/else conditions?
+In Python, if/else condition is used to choose between two actions.
+If condition is true → do one thing, otherwise → do another thing.
