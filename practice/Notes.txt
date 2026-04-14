@@ -64,4 +64,5 @@ append() → adds an item at the end of the list
 
 insert() → adds an item at a specific position
 ----------------------------------------------------------------------------------------------------------------------------------------------------
-
+what is Iteration of list?
+In Python, iteration means repeating steps over items one by one.
