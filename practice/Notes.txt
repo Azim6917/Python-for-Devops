@@ -47,3 +47,15 @@ Type casting is used when you want to change the type of a value (like string �
 what is if/else conditions?
 In Python, if/else condition is used to choose between two actions.
 If condition is true → do one thing, otherwise → do another thing.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
+what is array and list ?
+List → a collection of items that can be changed
+Example: [1, 2, 3]
+
+Array → similar to a list but usually stores same-type data and needs libraries like NumPy
+
+Simple idea:
+List = flexible, Array = more strict and efficient for numbers.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
