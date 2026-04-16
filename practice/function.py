@@ -13,3 +13,10 @@ check ("df -h")
 print ("____________________________________________________________________________")
 print ("***** CURRENT OS *****")
 check ("uname")
+
+name = input("Enter the name: ")
+
+def greet(name):
+    print ("Hello", name)
+
+greet(name)
