@@ -1,68 +1,99 @@
+# Python Basics Notes
 
 Scripts is a set of instructions.
 variables & constants.
- ---------------------------------------------------------------
-what is variable ?
- A **variable in Python** is a named container used to store data that can be changed during program execution.
- ------------------------------------------------------------------------------------------------------------------
-what is constant?
+
+---
+
+### What is variable?
+A **variable in Python** is a named container used to store data that can be changed during program execution.
+
+---
+
+### What is constant?
 A **constant in Python** is a value that is meant to stay the same and not change while the program runs.
- ------------------------------------------------------------------------------------------------------------------------
-what is assignment operator?
+
+---
+
+### What is assignment operator?
 An **assignment operator in Python** is used to give a value to a variable (like `=`).
------------------------------------------------------------------------------------------------------------------------
-what is arithmetic operators?
+
+---
+
+### What is arithmetic operators?
 In Python, **arithmetic operators** are symbols used to perform basic math operations like addition, subtraction, multiplication, and division.
-----------------------------------------------------------------------------------------------------------------------------------------------------
-what are Operators and Operands?
+
+---
+
+### What are Operators and Operands?
 Operands are the values you use (like numbers or variables)
 Operators (operations) are the symbols that perform actions on them
-For example - a + b
 
-a and b = operands
-+ = operator (operation)
+For example: `a + b`
+- **a** and **b** = operands
+- **+** = operator (operation)
 
-----------------------------------------------------------------------------------------------------------------------------------------------------
-what are data types?
+---
+
+### What are data types?
 In Python, **data types** are the types of values a variable can store (like numbers, text, or true/false).
-Basic Data Types
-- int → whole numbers (e.g., 10, -5)
-- float → decimal numbers (e.g., 3.14)
-- str → text (e.g., "hello")
-- bool → True or False
-Collection Data Types
-- list → ordered, changeable collection (e.g., [1, 2, 3])
-- tuple → ordered, but not changeable (e.g., (1, 2, 3))
-- set → unordered, unique items (e.g., {1, 2, 3})
-- dict → key-value pairs (e.g., {"name": "Azim"})
-----------------------------------------------------------------------------------------------------------------------------------------------------
-what is type casting?
 
+**Basic Data Types:**
+- `int` → whole numbers (e.g., 10, -5)
+- `float` → decimal numbers (e.g., 3.14)
+- `str` → text (e.g., "hello")
+- `bool` → True or False
+
+**Collection Data Types:**
+- `list` → ordered, changeable collection (e.g., `[1, 2, 3]`)
+- `tuple` → ordered, but not changeable (e.g., `(1, 2, 3)`)
+- `set` → unordered, unique items (e.g., `{1, 2, 3}`)
+- `dict` → key-value pairs (e.g., `{"name": "Azim"}`)
+
+---
+
+### What is type casting?
 In Python, type casting means converting one data type into another.
+
+```python
 x = "10"      # string
 y = int(x)    # converted to integer
+```
+
 Type casting is used when you want to change the type of a value (like string → number).
 
-----------------------------------------------------------------------------------------------------------------------------------------------------
-what is if/else conditions?
+---
+
+### What is if/else conditions?
 In Python, if/else condition is used to choose between two actions.
 If condition is true → do one thing, otherwise → do another thing.
 
-----------------------------------------------------------------------------------------------------------------------------------------------------
-what is array and list ?
-List → a collection of items that can be changed
-Example: [1, 2, 3]
+---
 
-Array → similar to a list but usually stores same-type data and needs libraries like NumPy
+### What is array and list?
+- **List** → a collection of items that can be changed
+  - Example: `[1, 2, 3]`
+- **Array** → similar to a list but usually stores same-type data and needs libraries like NumPy
 
-Simple idea:
+**Simple idea:**
 List = flexible, Array = more strict and efficient for numbers.
-----------------------------------------------------------------------------------------------------------------------------------------------------
-what is append and insert method in list?
 
-append() → adds an item at the end of the list
+---
 
-insert() → adds an item at a specific position
-----------------------------------------------------------------------------------------------------------------------------------------------------
-what is Iteration of list?
+### What is append and insert method in list?
+- `append()` → adds an item at the end of the list
+- `insert()` → adds an item at a specific position
+
+---
+
+### What is Iteration of list?
 In Python, iteration means repeating steps over items one by one.
+
+---
+
+### What is librarie in Python?
+In Python, libraries are collections of pre-written code that help you do tasks easily.
+
+- **os** → used to interact with the operating system (files, folders, paths)
+- **shutil** → used for file operations like copy, move, delete
+- **system** (`os.system`) → used to run system commands (like terminal commands)
