@@ -14,9 +14,25 @@ print ("________________________________________________________________________
 print ("***** CURRENT OS *****")
 check ("uname")
 
+'''take input from user '''
+
 name = input("Enter the name: ")
 
 def greet(name):
     print ("Hello", name)
 
 greet(name)
+
+'''Problem 2
+Write a function called find_maximum that takes two numbers as arguments and returns the larger of the two.
+
+Example Input: find_maximum(4, 9)
+Expected Output: 9'''
+
+def find_maximum(num1, num2):
+    if num1 > num2:
+        print(num1) 
+    else:
+        print(num2)
+        
+find_maximum(11, 9)
