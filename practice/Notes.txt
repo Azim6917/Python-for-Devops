@@ -107,4 +107,5 @@ A function is used to group some code together so you can run it many times with
     print("Hello")
 
 greet()   # calling the function
+
 ```
